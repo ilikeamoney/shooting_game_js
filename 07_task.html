@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #game{
+            width: 100%;
+        }
+        #game .layout{
+            margin: 0 auto;
+            text-align: center;
+        }
+        #game .title{
+            padding: 10px 0px;
+        }
+
+        .menu{
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+<div id="game">
+    <div class="layout">
+        <div class="title">
+            <h1>슈팅게임-플레이어</h1>
+            <h3>이동 : 방향키 </h3>
+        </div>
+        <canvas id="myCanvas" width="700px" height="480px" style="border: 1px solid black;">
+        </canvas>
+        <div class="menu">
+            <button id="gameStart">게임시작</button>
+        </div>
+        <div class="testText"></div>
+    </div>
+</div>
+
+<script src="07_task.js"></script>
+</body>
+</html>
+
+<!--
+    참고사이트
+    https://developer.mozilla.org/ko/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes
+-->
